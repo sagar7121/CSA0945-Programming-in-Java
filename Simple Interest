@@ -1,0 +1,23 @@
+PROGRAM :
+
+import java.util.Scanner;
+public class rightAlignedTriangle{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the Principal amount: ");
+        int p = scanner.nextInt();
+        System.out.print("Enter the time: ");
+        int t = scanner.nextInt();
+        System.out.print("Enter the rate: ");
+        int r = scanner.nextInt();
+        int SI = (p*t*r)/100;
+        System.out.println("The Simple Interest is "+SI);
+        scanner.close();
+    }
+}
+OUTPUT :
+
+Enter the Principal amount: 200000
+Enter the time: 3
+Enter the rate: 12
+The Simple Interest is 72000
